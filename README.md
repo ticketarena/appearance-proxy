@@ -5,14 +5,14 @@ A simple class to provide `UIAppearance` style customisation to classes that imp
 ### Example Usage
 
 ```objc
-@interface MyComponent : NSObject <UIAppearance>
+@import TAAAppearanceProxy;
+
+@interface MyComponent () <UIAppearance>
 
 @end
 
 
-@import TAAAppearanceProxy;
-
-@implementation
+@implementation MyComponent
 
 
 #pragma mark - UIAppearance
