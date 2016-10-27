@@ -19,7 +19,7 @@ A simple class to provide `UIAppearance` style customisation to classes that imp
 
 + (instancetype)appearance {
     
-    return [TAAAppearance proxyForClass:self];
+    return [TAAAppearanceProxy proxyForClass:self];
 }
 
 + (instancetype)appearanceWhenContainedIn...
